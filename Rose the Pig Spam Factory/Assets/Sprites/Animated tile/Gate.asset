@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29adf711fbd45e5438340501fcfc15f1, type: 3}
+  m_Name: Gate
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 2741623045908163508, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: -5838076222777832908, guid: d062fb65346581c4893301d8a5ec4080, type: 3}
+  - {fileID: -5988036607417302556, guid: d062fb65346581c4893301d8a5ec4080, type: 3}
+  - {fileID: 7350317890987281179, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 6106379242923512586, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 7132837826728083213, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 3485660782967887577, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: -998823213568116113, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 3485660782967887577, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 7132837826728083213, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 6106379242923512586, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 7350317890987281179, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 5019089542583544166, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: -4229967436820502994, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  - {fileID: 2741623045908163508, guid: 1b064d349f42c6249824fbb2be93b007, type: 3}
+  m_MinSpeed: 7
+  m_MaxSpeed: 7
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0

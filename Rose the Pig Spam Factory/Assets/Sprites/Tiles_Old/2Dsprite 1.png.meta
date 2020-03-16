@@ -1,0 +1,1421 @@
+fileFormatVersion: 2
+guid: 763f0731dc486ec49b88dd90f7a254fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3844136392241108528
+    second: 2D tiles spam factory_0
+  - first:
+      213: 7537196439494409262
+    second: 2D tiles spam factory_1
+  - first:
+      213: 8064141318794120748
+    second: 2D tiles spam factory_2
+  - first:
+      213: -8809553798875500378
+    second: 2D tiles spam factory_3
+  - first:
+      213: 2811384729587787079
+    second: 2D tiles spam factory_4
+  - first:
+      213: 8686951951038237944
+    second: 2D tiles spam factory_5
+  - first:
+      213: -9058673125385907173
+    second: 2D tiles spam factory_6
+  - first:
+      213: 8923941503288325262
+    second: 2D tiles spam factory_7
+  - first:
+      213: 8507078092469268251
+    second: 2D tiles spam factory_8
+  - first:
+      213: 8883653029629703373
+    second: 2D tiles spam factory_9
+  - first:
+      213: 5553740092408745560
+    second: 2D tiles spam factory_10
+  - first:
+      213: -7798068922422381071
+    second: 2D tiles spam factory_11
+  - first:
+      213: -8535242775267331849
+    second: 2D tiles spam factory_12
+  - first:
+      213: 9037219499929284622
+    second: 2D tiles spam factory_13
+  - first:
+      213: -5214306613077735265
+    second: 2D tiles spam factory_14
+  - first:
+      213: 1128036096339512185
+    second: 2D tiles spam factory_15
+  - first:
+      213: -2385410940632192315
+    second: 2D tiles spam factory_16
+  - first:
+      213: -1238786983487865082
+    second: 2D tiles spam factory_17
+  - first:
+      213: -5706436089531546400
+    second: 2D tiles spam factory_18
+  - first:
+      213: 3650710315341084461
+    second: 2D tiles spam factory_19
+  - first:
+      213: -7164490463572822383
+    second: 2D tiles spam factory_20
+  - first:
+      213: -4081715227496392789
+    second: 2D tiles spam factory_21
+  - first:
+      213: -5591379221625858773
+    second: 2D tiles spam factory_22
+  - first:
+      213: 852312226317019429
+    second: 2D tiles spam factory_23
+  - first:
+      213: -2308022253251126763
+    second: 2D tiles spam factory_24
+  - first:
+      213: 5082785280471677736
+    second: 2D tiles spam factory_25
+  - first:
+      213: 4845263158159369569
+    second: 2D tiles spam factory_26
+  - first:
+      213: -4846082051764019134
+    second: 2D tiles spam factory_27
+  - first:
+      213: -5120457217457958403
+    second: 2D tiles spam factory_28
+  - first:
+      213: -3240779112893161834
+    second: 2D tiles spam factory_29
+  - first:
+      213: 1972454848921092912
+    second: 2D tiles spam factory_30
+  - first:
+      213: -3731836784968685560
+    second: 2D tiles spam factory_31
+  - first:
+      213: 466825858216856150
+    second: 2D tiles spam factory_32
+  - first:
+      213: 125780085577566942
+    second: 2D tiles spam factory_33
+  - first:
+      213: -205978189872851084
+    second: 2D tiles spam factory_34
+  - first:
+      213: 2147030142895623890
+    second: 2D tiles spam factory_35
+  - first:
+      213: -7728297966158130387
+    second: 2D tiles spam factory_36
+  - first:
+      213: -4914226289729409366
+    second: 2D tiles spam factory_37
+  - first:
+      213: 3414016851282395578
+    second: 2D tiles spam factory_38
+  - first:
+      213: 8354329844254412385
+    second: 2D tiles spam factory_39
+  - first:
+      213: 4293576209672497756
+    second: 2D tiles spam factory_40
+  - first:
+      213: -12564316171091773
+    second: 2D tiles spam factory_41
+  - first:
+      213: -1211888859500961598
+    second: 2D tiles spam factory_42
+  - first:
+      213: -2290094983957687261
+    second: 2D tiles spam factory_43
+  - first:
+      213: 7965620158846662959
+    second: 2D tiles spam factory_44
+  - first:
+      213: 207517848351507862
+    second: 2D tiles spam factory_45
+  - first:
+      213: 7074421873314786032
+    second: 2D tiles spam factory_46
+  - first:
+      213: 1003483088028078684
+    second: 2D tiles spam factory_47
+  - first:
+      213: -6805960138135330609
+    second: 2D tiles spam factory_48
+  - first:
+      213: -6516075379233298112
+    second: 2D tiles spam factory_49
+  - first:
+      213: 897625979480823410
+    second: 2D tiles spam factory_50
+  - first:
+      213: -6294505809768947111
+    second: 2D tiles spam factory_51
+  - first:
+      213: -4403572363022504555
+    second: 2D tiles spam factory_52
+  - first:
+      213: 7516626921396310670
+    second: 2D tiles spam factory_53
+  - first:
+      213: -1596607756531554537
+    second: 2D tiles spam factory_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D tiles spam factory_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 624
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6585bcd5307684e44a302430e3f02d57
+      internalID: -3844136392241108528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 626
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5feae60d882324c8b1a36181ca1653
+      internalID: 7537196439494409262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 626
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d8336de5d02e04c8e1efaa67f18b46
+      internalID: 8064141318794120748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 629
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54895cbae3e72494b899da49fd495cae
+      internalID: -8809553798875500378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 449
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8e8cad76d611a4a8076fa5d7b4b5d2
+      internalID: 2811384729587787079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 449
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dc2f8a766c3be479029ec0e93f1bc5
+      internalID: 8686951951038237944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 449
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc0f99e632d6164db5dc5aaae70ba30
+      internalID: -9058673125385907173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 449
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a6f66bf822169468ae55231f35cb96
+      internalID: 8923941503288325262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_8
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 449
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6203252211cb78d45907c5497dd3ccd5
+      internalID: 8507078092469268251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 449
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32ab0fef97d7b45b504950d502dc78
+      internalID: 8883653029629703373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 449
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d388f71f245061f46ae41b363ca87f9a
+      internalID: 5553740092408745560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 449
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21794f3f5cbb01042a5f4de4c688ca00
+      internalID: -7798068922422381071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_12
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 449
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a40ec057975d964783351d70e59add0
+      internalID: -8535242775267331849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 87
+        width: 55
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638dba72f3163d842acfb6016993ecd5
+      internalID: 9037219499929284622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 368
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d7e42d8b8d3394eba575f56913561f
+      internalID: -5214306613077735265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 368
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf3abc5c91abe459ef2d853c9cdb4e
+      internalID: 1128036096339512185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 368
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cae6151c3256b4da32a3e22295a2a0
+      internalID: -2385410940632192315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 368
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdda131d000efc74b80b134f6d6e62e8
+      internalID: -1238786983487865082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_18
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 368
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12b268867396414d874fec39b18fab9
+      internalID: -5706436089531546400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 368
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de47bd3e514a924d94558f9cee1c590
+      internalID: 3650710315341084461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_20
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 368
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ab2beb7e42cf24ba997b9e294a1f6a
+      internalID: -7164490463572822383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 368
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11fcae38072724c87e981584d13614
+      internalID: -4081715227496392789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_22
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 368
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c5e8f576c01f2449f9066654c28dce
+      internalID: -5591379221625858773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 287
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9db430734187f49b2daf35b1213c67
+      internalID: 852312226317019429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 287
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adf91cbc2d1df9439b1ef40d2cdd319
+      internalID: -2308022253251126763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 287
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8952f0dae52ed1f479643db9b7a46907
+      internalID: 5082785280471677736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_26
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 287
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22186f5c2ff9f0543a75e969564aaac2
+      internalID: 4845263158159369569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 287
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e30f7ccd1aa2c4eb8831ff3210185b
+      internalID: -4846082051764019134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 287
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1001c1fe3159bfc47bcc3192ced2e3fa
+      internalID: -5120457217457958403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_29
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 287
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ab662073682d48982d8c9d9599b06
+      internalID: -3240779112893161834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_30
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 287
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c812b8f5a50ed94ebc4023a9180becc
+      internalID: 1972454848921092912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_31
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 287
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93570bee43bf8479a453c9a896c3e7
+      internalID: -3731836784968685560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc25fc2edbd30443877ca8a7adbb27a
+      internalID: 466825858216856150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 209
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec13b3568251a34d82d15218a87a737
+      internalID: 125780085577566942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_34
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 209
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df6ee5c869b2cd49bb16e6d1f3a8abc
+      internalID: -205978189872851084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 209
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb93b6638630664498c45373817f8922
+      internalID: 2147030142895623890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_36
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 209
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81f39e078ff83f46ba3e6970f10cedb
+      internalID: -7728297966158130387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 209
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdd97bae8ecf8f4bab971b1b1188a22
+      internalID: -4914226289729409366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_38
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 209
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4422fdcc698d4e85445d8e154d3be
+      internalID: 3414016851282395578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_39
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 209
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e591226fc8497b845a84164ef73cbe7c
+      internalID: 8354329844254412385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_40
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 209
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e5a7afec3f1b44bff2aef8275f184
+      internalID: 4293576209672497756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f2d2364e4db94e8cafe24dba4c2b1
+      internalID: -12564316171091773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982ccdff58c6a5243bb22a439234951b
+      internalID: -1211888859500961598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e4fc4991bebe14b8f3875790041e62
+      internalID: -2290094983957687261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b7f7160e4791489c0d271ea0012c3
+      internalID: 7965620158846662959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a726003bd5295d40b8a3ce5175a1551
+      internalID: 207517848351507862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a091f33e0fe498f40beffdbb2ee67c83
+      internalID: 7074421873314786032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 130
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f31273a588d644ca437fd4c8c73fd3
+      internalID: 1003483088028078684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1f175538176274b8de09627bb5826f
+      internalID: -6805960138135330609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3050456b0876194a91c298d8f653cff
+      internalID: -6516075379233298112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb111bdf9af962649ac87f448cab5962
+      internalID: 897625979480823410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da87c468c6e02bf44baf0a1d97dc8695
+      internalID: -6294505809768947111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fce5269b05a8e49be7bac9ba8bed8a
+      internalID: -4403572363022504555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_53
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b70b922130964a967991e07f97b5a
+      internalID: 7516626921396310670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D tiles spam factory_54
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 50
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e4af1083ebffc4b870586e3f5a58b7
+      internalID: -1596607756531554537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e0ba697204e45b04280ea29aa9e69906
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
