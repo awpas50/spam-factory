@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29adf711fbd45e5438340501fcfc15f1, type: 3}
+  m_Name: Barrier2(2)
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -7587424394497353833, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: 6035841922042028855, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: -3591746515619445244, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: -635944539041416156, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: -4989486540013369484, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: -322315224587181440, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: 5425277341248001781, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  - {fileID: 3450019998629850671, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
