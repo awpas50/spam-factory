@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 47313737}
   - component: {fileID: 47313738}
   - component: {fileID: 47313739}
+  - component: {fileID: 47313740}
   m_Layer: 15
   m_Name: '*Barrier (1)'
   m_TagString: Untagged
@@ -243,6 +244,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 3
+--- !u!114 &47313740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47313735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &66485154
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +449,7 @@ GameObject:
   - component: {fileID: 120321122}
   - component: {fileID: 120321123}
   - component: {fileID: 120321124}
+  - component: {fileID: 120321125}
   m_Layer: 13
   m_Name: +Barrier
   m_TagString: Untagged
@@ -546,6 +561,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 1
+--- !u!114 &120321125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120321120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &128052727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,7 +2680,7 @@ Tilemap:
       - {fileID: -7145618943202359152, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
       - {fileID: -6302843798257914246, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
       - {fileID: -2634840886042245928, guid: 9a6cec2e2eba4ae45b816fdd7cdbf4a4, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 1, z: 0}
@@ -2997,6 +3025,7 @@ GameObject:
   - component: {fileID: 377253888}
   - component: {fileID: 377253889}
   - component: {fileID: 377253890}
+  - component: {fileID: 377253891}
   m_Layer: 14
   m_Name: -Barrier (1)
   m_TagString: Untagged
@@ -3108,6 +3137,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 2
+--- !u!114 &377253891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377253886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &409326360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +3663,7 @@ GameObject:
   - component: {fileID: 508432542}
   - component: {fileID: 508432543}
   - component: {fileID: 508432544}
+  - component: {fileID: 508432545}
   m_Layer: 13
   m_Name: +Barrier (1)
   m_TagString: Untagged
@@ -3732,6 +3775,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 1
+--- !u!114 &508432545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508432540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,6 +4803,7 @@ GameObject:
   - component: {fileID: 703766581}
   - component: {fileID: 703766582}
   - component: {fileID: 703766583}
+  - component: {fileID: 703766584}
   m_Layer: 13
   m_Name: +Barrier (2)
   m_TagString: Untagged
@@ -4858,6 +4915,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 1
+--- !u!114 &703766584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703766579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &716944651
 GameObject:
   m_ObjectHideFlags: 0
@@ -5840,6 +5910,7 @@ GameObject:
   - component: {fileID: 1121442944}
   - component: {fileID: 1121442943}
   - component: {fileID: 1121442945}
+  - component: {fileID: 1121442946}
   m_Layer: 16
   m_Name: /Barrier (1)
   m_TagString: Untagged
@@ -5951,6 +6022,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 4
+--- !u!114 &1121442946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121442941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1128196282
 GameObject:
   m_ObjectHideFlags: 0
@@ -5963,6 +6047,7 @@ GameObject:
   - component: {fileID: 1128196284}
   - component: {fileID: 1128196285}
   - component: {fileID: 1128196286}
+  - component: {fileID: 1128196287}
   m_Layer: 15
   m_Name: '*Barrier'
   m_TagString: Untagged
@@ -6074,6 +6159,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 3
+--- !u!114 &1128196287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128196282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1144114304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6344,6 +6442,7 @@ GameObject:
   - component: {fileID: 1189468796}
   - component: {fileID: 1189468797}
   - component: {fileID: 1189468798}
+  - component: {fileID: 1189468799}
   m_Layer: 13
   m_Name: +Barrier (4)
   m_TagString: Untagged
@@ -6455,6 +6554,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 1
+--- !u!114 &1189468799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189468794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1202247303
 GameObject:
   m_ObjectHideFlags: 0
@@ -6816,6 +6928,7 @@ GameObject:
   - component: {fileID: 1362704564}
   - component: {fileID: 1362704565}
   - component: {fileID: 1362704566}
+  - component: {fileID: 1362704567}
   m_Layer: 14
   m_Name: -Barrier (3)
   m_TagString: Untagged
@@ -6926,6 +7039,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 2
+--- !u!114 &1362704567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362704562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1366291378
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,6 +7384,7 @@ GameObject:
   - component: {fileID: 1466242601}
   - component: {fileID: 1466242600}
   - component: {fileID: 1466242602}
+  - component: {fileID: 1466242603}
   m_Layer: 16
   m_Name: /Barrier
   m_TagString: Untagged
@@ -7369,6 +7496,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 4
+--- !u!114 &1466242603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466242598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1470844016
 GameObject:
   m_ObjectHideFlags: 0
@@ -7451,6 +7591,7 @@ GameObject:
   - component: {fileID: 1534888893}
   - component: {fileID: 1534888894}
   - component: {fileID: 1534888895}
+  - component: {fileID: 1534888896}
   m_Layer: 14
   m_Name: -Barrier (2)
   m_TagString: Untagged
@@ -7562,6 +7703,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 2
+--- !u!114 &1534888896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534888891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1594394401
 GameObject:
   m_ObjectHideFlags: 0
@@ -8872,6 +9026,7 @@ GameObject:
   - component: {fileID: 1957686417}
   - component: {fileID: 1957686418}
   - component: {fileID: 1957686419}
+  - component: {fileID: 1957686420}
   m_Layer: 14
   m_Name: -Barrier
   m_TagString: Untagged
@@ -8983,6 +9138,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrierTagNumber: 2
+--- !u!114 &1957686420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957686415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35fa6a909c930545b3e7fad5e12aa33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neonLight: {fileID: 0}
 --- !u!1 &1959693843
 GameObject:
   m_ObjectHideFlags: 0
