@@ -112,25 +112,25 @@ public class GridBasedMovement : MonoBehaviour
     {
         if(finishedMoving)
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKey(KeyCode.W))
             {
                 MoveUp();
             }
-            else if (Input.GetKeyDown(KeyCode.S))
+            else if (Input.GetKey(KeyCode.S))
             {
                 MoveDown();
             }
-            else if (Input.GetKeyDown(KeyCode.A))
+            else if (Input.GetKey(KeyCode.A))
             {
                 MoveLeft();
             }
-            else if (Input.GetKeyDown(KeyCode.D))
+            else if (Input.GetKey(KeyCode.D))
             {
                 MoveRight();
             }
         }
         // reducing repetitive codes
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             // record the previous position
             previousPosition = transform.position;

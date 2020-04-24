@@ -16,10 +16,10 @@ TagManager:
   - 
   - 
   - Box
-  - 
-  - Player
-  - 
   - Wall
+  - Player
+  - Ice
+  - 
   - +Barrier
   - -Barrier
   - '*Barrier'

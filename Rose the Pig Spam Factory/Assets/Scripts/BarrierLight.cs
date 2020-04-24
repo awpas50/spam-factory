@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class BarrierLight : MonoBehaviour
 {
+    public float speed;
+    public float minIntensity;
+    public float maxIntensity;
     public UnityEngine.Experimental.Rendering.LWRP.Light2D neonLight;
-    // Start is called before the first frame update
+
+    float startTime;
+
     void Start()
     {
+        startTime = Time.time;
         neonLight = transform.GetChild(0).GetComponent<UnityEngine.Experimental.Rendering.LWRP.Light2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        LightControl();
+    }
+
+    public void LightControl()
+    {
+        float t = (Mathf.Sin(Time.time - startTime) * speed);
+        neonLight.intensity = Mathf.Lerp(maxIntensity, minIntensity, t);
     }
 }

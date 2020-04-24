@@ -11,7 +11,6 @@ public class Hatch : MonoBehaviour
     public float hatchOpenTime;
     public float hatchCloseTime;
 
-    private bool isFreezed = false;
     // Start is called before the first frame update
     void Start()
     {
