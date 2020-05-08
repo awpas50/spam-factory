@@ -32,12 +32,13 @@ public class Hatch : MonoBehaviour
 
     IEnumerator HatchInteraction()
     {
+        gameObject.GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(freezeTime);
         while (true)
         {
-            OpenGate();
+            OpenHatch();
             yield return new WaitForSeconds(hatchOpenTime);
-            CloseGate();
+            CloseHatch();
             yield return new WaitForSeconds(hatchCloseTime);
         }
     }
@@ -47,16 +48,17 @@ public class Hatch : MonoBehaviour
         if(other.gameObject.GetComponent<Box>() || other.gameObject.tag == "Player")
         {
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
 
-    void OpenGate()
+    void OpenHatch()
     {
         animator.SetBool("GateTrigger", true);
         gameObject.GetComponent<Collider2D>().enabled = true;
     }
 
-    void CloseGate()
+    void CloseHatch()
     {
         animator.SetBool("GateTrigger", false);
         gameObject.GetComponent<Collider2D>().enabled = false;

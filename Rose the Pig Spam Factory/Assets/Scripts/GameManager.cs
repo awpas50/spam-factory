@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Sprite[] box_sprite_subtraction = new Sprite[9];
     public Sprite[] box_sprite_multi = new Sprite[9];
     public Sprite[] box_sprite_division = new Sprite[9];
+
     void Awake()
     {
         if (instance == null)

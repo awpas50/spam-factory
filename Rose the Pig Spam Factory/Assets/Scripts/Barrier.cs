@@ -30,6 +30,10 @@ public class Barrier : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // just a short form... otherwise the code below will be too long
+        if(!other.GetComponent<Box>())
+        {
+            return;
+        }
         Box box = other.GetComponent<Box>(); 
         // 1: addition 2: subtraction 3: multiplication 4: division
         if (barrierTagNumber != box.boxTagNumber)

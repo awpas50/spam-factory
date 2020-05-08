@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &45961593
 Transform:
   m_ObjectHideFlags: 0
@@ -201,7 +201,6 @@ GameObject:
   - component: {fileID: 2385137937980032845}
   - component: {fileID: 491871238}
   - component: {fileID: 491871239}
-  - component: {fileID: 2418706417597666124}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -408,22 +407,3 @@ MonoBehaviour:
   scrollSpeedX: 0
   scrollY: 1
   scrollSpeedY: 0.1
---- !u!114 &2418706417597666124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2385137937980032846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8fc264831fc959489587b264ddebeeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scales_list:
-  - {fileID: 0}
-  - {fileID: 0}
-  scales_val:
-  - 0
-  - 0
-  gate: {fileID: 0}

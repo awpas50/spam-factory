@@ -5,6 +5,9 @@ using TMPro;
 
 public class CheckBalance : MonoBehaviour
 {
+    public static bool equal = false;
+    public Animator animator;
+
     public List<Scales> scales_list;
     public List<float> scales_val;
     public GameObject gate;
@@ -15,19 +18,19 @@ public class CheckBalance : MonoBehaviour
         {
             scales_val[i] = scales_list[i].realValue;
         }
-        bool equal = CheckScale();
+        equal = CheckScale();
         Debug.Log(equal);
         if (equal)
         {
             //oepn gate
-            gate.GetComponent<Renderer>().enabled = false;
-            gate.SetActive(false);
+            animator.SetBool("GateTrigger", true);
+            gate.layer = LayerMask.NameToLayer("Default");
         }
         else
         {
             //close gate
-            gate.GetComponent<Renderer>().enabled = true;
-            gate.SetActive(true);
+            animator.SetBool("GateTrigger", false);
+            gate.layer = LayerMask.NameToLayer("Wall");
         }
     }
 

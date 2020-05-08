@@ -13,7 +13,7 @@ public class Scales : MonoBehaviour
     private float preValue;
 
     [Range(0f, 1f)] private float t;
-    public float realValue;
+    [HideInInspector] public float realValue;
     private bool trigger = false;
 
     void Awake()

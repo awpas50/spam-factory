@@ -10,33 +10,31 @@ public class Box : MonoBehaviour
     public Transform player;
     public float magnitude = 8f; // speed
 
-    
-
     private Vector3 force;
     private bool iceDetected = false;
     private bool positionSet = false;
     private Rigidbody2D rb;
 
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    //private void Start()
+    //{
+    //    rb = GetComponent<Rigidbody2D>();
+    //}
 
     
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        //if (other.gameObject.tag == "Ice")
-        //{
-        //    // the box will silde on the ice
-        //    if (positionSet == false)
-        //    {
-        //        // determine which direction to slide
-        //        force = transform.position - player.transform.position;
-        //        force.Normalize();
-        //    }
-        //}
-    }
+    //private void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.gameObject.tag == "Ice")
+    //    {
+    //        // the box will silde on the ice
+    //        if (positionSet == false)
+    //        {
+    //            // determine which direction to slide
+    //            force = transform.position - player.transform.position;
+    //            force.Normalize();
+    //        }
+    //    }
+    //}
 
     //private void OnTriggerStay2D(Collider2D other)
     //{
