@@ -22,14 +22,16 @@ public class CheckBalance : MonoBehaviour
         Debug.Log(equal);
         if (equal)
         {
-            //oepn gate
+            //open gate
             animator.SetBool("GateTrigger", true);
+            //AudioManager.instance.Play(SoundList.GateOpen);
             gate.layer = LayerMask.NameToLayer("Default");
         }
         else
         {
             //close gate
             animator.SetBool("GateTrigger", false);
+            //AudioManager.instance.Play(SoundList.GateClose);
             gate.layer = LayerMask.NameToLayer("Wall");
         }
     }

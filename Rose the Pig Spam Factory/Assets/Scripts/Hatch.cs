@@ -5,7 +5,6 @@ using UnityEngine;
 public class Hatch : MonoBehaviour
 {
     public Animator animator;
-    public bool debugTest = false;
 
     public float freezeTime;
     public float hatchOpenTime;
@@ -15,19 +14,6 @@ public class Hatch : MonoBehaviour
     void Start()
     {
         StartCoroutine(HatchInteraction());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //if (!debugTest)
-        //{
-        //    CloseGate();
-        //}
-        //if (debugTest)
-        //{
-        //    OpenGate();
-        //}
     }
 
     IEnumerator HatchInteraction()

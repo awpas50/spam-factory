@@ -15,19 +15,19 @@ TagManager:
   - UI
   - 
   - 
-  - Box
+  - 
   - Wall
   - Player
-  - Ice
+  - Box_ungrapped
+  - Box_grapped
+  - Hatch
   - 
-  - +Barrier
-  - -Barrier
-  - '*Barrier'
-  - (Division)Barrier
-  - +Box
-  - -Box
-  - '*Box'
-  - (Division)Box
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

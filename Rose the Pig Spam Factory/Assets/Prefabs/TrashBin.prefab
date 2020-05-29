@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4796965453461818928}
   - component: {fileID: 4796965453461818931}
   - component: {fileID: 4796965453461818930}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: TrashBin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4796965453461818928}
-  debugTest: 0
   freezeTime: 2
   hatchOpenTime: 3
   hatchCloseTime: 3
