@@ -5804,7 +5804,7 @@ Tilemap:
       - {fileID: -4893418801360408975, guid: 4f56eccab035f79478ed2f2b4fe2590b, type: 3}
       - {fileID: 6558911712830732020, guid: 4f56eccab035f79478ed2f2b4fe2590b, type: 3}
       - {fileID: -2103244759766750293, guid: 4f56eccab035f79478ed2f2b4fe2590b, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: -1, z: 0}
@@ -5822,7 +5822,7 @@ Tilemap:
       - {fileID: 5050396758349372122, guid: b6ef7753835ad4c4a838671f626846b1, type: 3}
       - {fileID: 7815205370976386663, guid: b6ef7753835ad4c4a838671f626846b1, type: 3}
       - {fileID: 4378410316174979557, guid: b6ef7753835ad4c4a838671f626846b1, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: -1, z: 0}
@@ -6774,16 +6774,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 883736000323633387, guid: acc89528f3c261049ab570cc04f91214,
-        type: 3}
-      propertyPath: sounds.Array.data[0].volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 883736000323633387, guid: acc89528f3c261049ab570cc04f91214,
-        type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc89528f3c261049ab570cc04f91214, type: 3}
