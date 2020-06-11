@@ -6,13 +6,14 @@ using TMPro;
 public class CheckBalance : MonoBehaviour
 {
     public static bool equal = false;
+    public bool gateOpenFirstTime = false;
     public Animator animator;
 
     public List<Scales> scales_list;
     public List<float> scales_val;
     public GameObject gate;
 
-    private void Update()
+    void Update()
     {
         for (int i = 0; i < scales_list.Count; i++)
         {
@@ -24,14 +25,20 @@ public class CheckBalance : MonoBehaviour
         {
             //open gate
             animator.SetBool("GateTrigger", true);
-            //AudioManager.instance.Play(SoundList.GateOpen);
+            AudioManager.soundConditionDict[SoundList.GateClose] = false;
+            gateOpenFirstTime = true;
+            AudioManager.instance.PlayOnce(SoundList.GateOpen);
             gate.layer = LayerMask.NameToLayer("Default");
         }
         else
         {
             //close gate
             animator.SetBool("GateTrigger", false);
-            //AudioManager.instance.Play(SoundList.GateClose);
+            AudioManager.soundConditionDict[SoundList.GateOpen] = false;
+            if(gateOpenFirstTime)
+            {
+                AudioManager.instance.PlayOnce(SoundList.GateClose);
+            }
             gate.layer = LayerMask.NameToLayer("Wall");
         }
     }

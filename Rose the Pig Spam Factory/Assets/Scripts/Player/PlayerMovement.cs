@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        
         DetectDirection();
         // Animation
         DetectAiming();
@@ -58,12 +57,12 @@ public class PlayerMovement : MonoBehaviour
     }
     void Walk()
     {
-        //int seed = Random.Range(0, 2);
+        int seed = Random.Range(0, 2);
         if (movement != Vector2.zero)
         {
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
-            AudioManager.instance.Play(SoundList.PlayerMove, 0.25f);
+            AudioManager.instance.PlayContinuously(SoundList.PlayerMove, 0.25f);
         }
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }

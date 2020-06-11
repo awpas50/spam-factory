@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ice
   - Wall
+  - ScreenShake
+  - LevelLoader
   layers:
   - Default
   - TransparentFX

@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System;
-using System.Linq;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
     // ref:https://www.youtube.com/watch?v=6OT43pvUyfY
-
+    
     public Sound[] sounds;
     public static AudioManager instance;
-    private static Dictionary<SoundList, float> soundTimerDictionary;
+    public static Dictionary<SoundList, float> soundTimerDict;
+    public static Dictionary<SoundList, bool> soundConditionDict;
 
     void Awake()
     {
@@ -25,47 +25,87 @@ public class AudioManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
 
-        soundTimerDictionary = new Dictionary<SoundList, float>();
-        soundTimerDictionary[SoundList.PlayerMove] = 0;
-        soundTimerDictionary[SoundList.PlayerMove_2] = 0;
+        soundConditionDict = new Dictionary<SoundList, bool>();
+        soundTimerDict = new Dictionary<SoundList, float>();
+
+        foreach (SoundList val in Enum.GetValues(typeof(SoundList)))
+        {
+            soundConditionDict[val] = false;
+            soundTimerDict[val] = 0;
+        }
     }
 
-    public static bool CanPlaySound(SoundList sound, float CD)
+    public static bool CanPlaySound(SoundList soundList, float interval)
     {
-        if (soundTimerDictionary.ContainsKey(sound))
+        Debug.Log(Time.time + interval + " " + soundTimerDict[soundList]);
+        float lastTimePlayed = soundTimerDict[soundList];
+        if (lastTimePlayed + interval < Time.time)
         {
-            float lastTimePlayed = soundTimerDictionary[sound];
-            if (lastTimePlayed + CD < Time.time)
-            {
-                soundTimerDictionary[sound] = Time.time;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            soundTimerDict[soundList] = Time.time;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
 
-    public void Play(SoundList soundList, float CD)
+    // Use this to play audio once in trigger function (e.g. OnTriggerEnter, OnMouseButtonUp, OnMouseButtonDown)
+    public void Play(SoundList soundList)
     {
-        if(CanPlaySound(soundList, CD))
+        // Create an empty game object, than add a audioSource & audioClip on it.
+        GameObject soundGameObject = new GameObject("Sound");
+        AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+        AudioClip audioClip = GetAudioClip(soundList);
+
+        audioSource.volume = GetVolume(soundList);
+        audioSource.pitch = GetPitch(soundList);
+        audioSource.reverbZoneMix = GetReverbZoneMix(soundList);
+        // Play the audio clip
+        audioSource.PlayOneShot(audioClip);
+        
+        Destroy(soundGameObject, 10f);
+    }
+
+    // Play only once in Update() to avoid playing the clip every frame.
+    public void PlayOnce(SoundList soundList)
+    {
+        if(soundConditionDict[soundList] == false)
         {
             // Create an empty game object, than add a audioSource & audioClip on it.
-            GameObject soundGameObject = new GameObject("Sound");
+            GameObject soundGameObject = new GameObject("Sound in Update()");
             AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
             AudioClip audioClip = GetAudioClip(soundList);
 
             audioSource.volume = GetVolume(soundList);
             audioSource.pitch = GetPitch(soundList);
             audioSource.reverbZoneMix = GetReverbZoneMix(soundList);
+            // Play the audio clip
             audioSource.PlayOneShot(audioClip);
 
-            Destroy(soundGameObject, 5f);
+            // the dictionary value is set to true to avoid playing the clip every frame.
+            // set it to false using "soundConditionDict[soundList] = false;" in any other part of the script.
+            soundConditionDict[soundList] = true;
+            Destroy(soundGameObject, 10f);
+        }
+    }
+
+    public void PlayContinuously(SoundList soundList, float interval)
+    {
+        if (CanPlaySound(soundList, interval))
+        {
+            // Create an empty game object, than add a audioSource & audioClip on it.
+            GameObject soundGameObject = new GameObject("Sound continuous");
+            AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+            AudioClip audioClip = GetAudioClip(soundList);
+
+            audioSource.volume = GetVolume(soundList);
+            audioSource.pitch = GetPitch(soundList);
+            audioSource.reverbZoneMix = GetReverbZoneMix(soundList);
+            // Play the audio clip
+            audioSource.PlayOneShot(audioClip);
+
+            Destroy(soundGameObject, 10f);
         }
     }
 

@@ -12,6 +12,7 @@ public class PlayerPushObject : MonoBehaviour
     [Header("VFX")]
     public GameObject objectEffect;
     private LineRenderer lineRenderer;
+    private CameraShake cameraShake;
 
     private bool facingUp;
     private bool facingDown;
@@ -23,13 +24,24 @@ public class PlayerPushObject : MonoBehaviour
     private void Start()
     {
         lineRenderer = objectEffect.GetComponent<LineRenderer>();
+        cameraShake = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShake>();
         fixedGrapper = false;
         isGrapped = false;
     }
 
     void Update()
     {
-        if(box != null)
+        // fixed grapper direction
+        if (Input.GetMouseButton(0))
+        {
+            fixedGrapper = true;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            fixedGrapper = false;
+        }
+
+        if (box != null)
         {
             lineRenderer.enabled = true;
             lineRenderer.SetPosition(0, transform.position);
@@ -83,15 +95,7 @@ public class PlayerPushObject : MonoBehaviour
             hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, grappingDistance, boxMask);
         }
 
-        // fixed grapper direction
-        if (Input.GetMouseButton(0))
-        {
-            fixedGrapper = true;
-        }
-        if(Input.GetMouseButtonUp(0))
-        {
-            fixedGrapper = false;
-        }
+        
         // push the key
         if (hit.collider != null && !isGrapped && Input.GetMouseButton(0))
         {
@@ -108,14 +112,15 @@ public class PlayerPushObject : MonoBehaviour
 
             // 4.adjust physics
             // set boxes to moveable weight
-            box.GetComponent<Rigidbody2D>().mass = 1;
+            //box.GetComponent<Rigidbody2D>().mass = 1;
+            box.GetComponent<Rigidbody2D>().isKinematic = false;
             box.GetComponent<FixedJoint2D>().enabled = true;
             box.GetComponent<FixedJoint2D>().connectedBody = GetComponent<Rigidbody2D>();
 
             // 5. adjust layer
             box.GetComponent<SpriteRenderer>().sortingOrder += 5;
         }
-        //release the key
+        //release key
         else if(box != null && Input.GetMouseButtonUp(0))
         {
             isGrapped = false;
@@ -132,13 +137,17 @@ public class PlayerPushObject : MonoBehaviour
             // disable all velocity
             box.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             // reset boxes to unmoveable weight
-            box.GetComponent<Rigidbody2D>().mass = 10000;
+            //box.GetComponent<Rigidbody2D>().mass = 10000;
+            //box.GetComponent<Rigidbody2D>().isKinematic = true;
 
             // 4. adjust layer
             box.GetComponent<SpriteRenderer>().sortingOrder -= 5;
-
+            
             // 5. remove reference of the box
             box = null;
+
+            // 6. Shake effect
+            StartCoroutine(cameraShake.Shake(0.05f, 0.1f));
         }
     }
 

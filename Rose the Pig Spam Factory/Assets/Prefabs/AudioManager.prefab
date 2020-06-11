@@ -44,33 +44,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - clip: {fileID: 8300000, guid: 2fa9c8de4c09d0542946dc365c4ac794, type: 3}
+  - clip: {fileID: 8300000, guid: def354a406a25b94b8d7e4ed07203b1f, type: 3}
     soundList: 0
     source: {fileID: 0}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     reverbZoneMix: 0
   - clip: {fileID: 8300000, guid: 2fa9c8de4c09d0542946dc365c4ac794, type: 3}
     soundList: 1
     source: {fileID: 0}
-    volume: 0.5
-    pitch: 1
-    reverbZoneMix: 0
-  - clip: {fileID: 8300000, guid: eaaa05f982050894986802f30f094587, type: 3}
-    soundList: 2
-    source: {fileID: 0}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     reverbZoneMix: 0
   - clip: {fileID: 8300000, guid: d9244d98c03c00c409f2a1d4d5905d5c, type: 3}
-    soundList: 3
+    soundList: 2
     source: {fileID: 0}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     reverbZoneMix: 0
-  - clip: {fileID: 0}
+  - clip: {fileID: 8300000, guid: eaaa05f982050894986802f30f094587, type: 3}
+    soundList: 3
+    source: {fileID: 0}
+    volume: 0.1
+    pitch: 1
+    reverbZoneMix: 0
+  - clip: {fileID: 8300000, guid: dd453441c1a16d047b1fa087f0f00959, type: 3}
     soundList: 4
     source: {fileID: 0}
-    volume: 0.5
+    volume: 0.1
     pitch: 1
     reverbZoneMix: 0

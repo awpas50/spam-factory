@@ -5,12 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SwitchLevel : MonoBehaviour
 {
-    public string levelToSwitch;
-    private void OnCollisionEnter2D(Collision2D col)
+    public Animator transition;
+    
+
+    public void LoadNextLevel()
     {
-        if(col.collider.gameObject.tag == "Player" && CheckBalance.equal)
-        {
-            SceneManager.LoadScene(levelToSwitch);
-        }
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    // Transition
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        // Play animation
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(levelIndex);
     }
 }
