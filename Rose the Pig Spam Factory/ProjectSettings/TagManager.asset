@@ -17,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - Wall
+  - GateOpen
+  - GateClose
   - Player
   - Box_ungrapped
   - Box_grapped

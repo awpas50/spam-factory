@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -203,11 +203,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128052727}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -256,8 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 5
   boxTagNumber: 1
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!212 &128052732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4115,12 +4114,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!4 &546610391 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1748858910926332388, guid: 9fa68b4fbf16f804190544aa8c8ccbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1748858910399200563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &601771569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,11 +4362,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632076637}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -4422,8 +4415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 2
   boxTagNumber: 4
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!255 &632076643
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -4593,11 +4585,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738661674}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -4646,8 +4638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 3
   boxTagNumber: 3
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!255 &738661680
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -7149,11 +7140,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233340631}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -7202,8 +7193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 3
   boxTagNumber: 1
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!212 &1233340636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8043,11 +8033,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594394401}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -8096,8 +8086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 1
   boxTagNumber: 2
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!212 &1594394406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8879,11 +8868,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057163420}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -8932,8 +8921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 2
   boxTagNumber: 2
-  player: {fileID: 546610391}
-  magnitude: 5
+  overOtherBoxes: 0
 --- !u!212 &2057163425
 SpriteRenderer:
   m_ObjectHideFlags: 0

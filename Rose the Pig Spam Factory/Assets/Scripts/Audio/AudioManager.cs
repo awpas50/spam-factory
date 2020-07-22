@@ -37,7 +37,6 @@ public class AudioManager : MonoBehaviour
 
     public static bool CanPlaySound(SoundList soundList, float interval)
     {
-        Debug.Log(Time.time + interval + " " + soundTimerDict[soundList]);
         float lastTimePlayed = soundTimerDict[soundList];
         if (lastTimePlayed + interval < Time.time)
         {

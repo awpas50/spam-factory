@@ -39,7 +39,7 @@ public class CheckBalance : MonoBehaviour
             {
                 AudioManager.instance.PlayOnce(SoundList.GateClose);
             }
-            gate.layer = LayerMask.NameToLayer("Wall");
+            gate.layer = LayerMask.NameToLayer("GateClose");
         }
     }
 

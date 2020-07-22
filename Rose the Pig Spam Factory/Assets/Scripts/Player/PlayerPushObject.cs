@@ -112,8 +112,7 @@ public class PlayerPushObject : MonoBehaviour
 
             // 4.adjust physics
             // set boxes to moveable weight
-            //box.GetComponent<Rigidbody2D>().mass = 1;
-            box.GetComponent<Rigidbody2D>().isKinematic = false;
+            box.GetComponent<Rigidbody2D>().mass = 1;
             box.GetComponent<FixedJoint2D>().enabled = true;
             box.GetComponent<FixedJoint2D>().connectedBody = GetComponent<Rigidbody2D>();
 
@@ -137,8 +136,7 @@ public class PlayerPushObject : MonoBehaviour
             // disable all velocity
             box.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             // reset boxes to unmoveable weight
-            //box.GetComponent<Rigidbody2D>().mass = 10000;
-            //box.GetComponent<Rigidbody2D>().isKinematic = true;
+            box.GetComponent<Rigidbody2D>().mass = 100000000;
 
             // 4. adjust layer
             box.GetComponent<SpriteRenderer>().sortingOrder -= 5;
