@@ -7,14 +7,14 @@ public class BarrierLight : MonoBehaviour
     public float speed;
     public float minIntensity;
     public float maxIntensity;
-    public UnityEngine.Experimental.Rendering.LWRP.Light2D neonLight;
+    public UnityEngine.Experimental.Rendering.Universal.Light2D neonLight;
 
     float startTime;
 
     void Start()
     {
         startTime = Time.time;
-        neonLight = transform.GetChild(0).GetComponent<UnityEngine.Experimental.Rendering.LWRP.Light2D>();
+        neonLight = transform.GetChild(0).GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();
     }
 
     private void Update()
