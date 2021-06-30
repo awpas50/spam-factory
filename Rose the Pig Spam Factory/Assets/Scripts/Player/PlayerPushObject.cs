@@ -8,6 +8,7 @@ public class PlayerPushObject : MonoBehaviour
     public LayerMask boxMask;
 
     public GameObject box;
+    Animator animator;
 
     [Header("VFX")]
     public GameObject objectEffect;
@@ -23,6 +24,7 @@ public class PlayerPushObject : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         lineRenderer = objectEffect.GetComponent<LineRenderer>();
         cameraShake = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraShake>();
         fixedGrapper = false;
@@ -32,11 +34,11 @@ public class PlayerPushObject : MonoBehaviour
     void Update()
     {
         // fixed grapper direction
-        if (Input.GetMouseButton(0))
+        if (Input.GetKey(KeyCode.Space))
         {
             fixedGrapper = true;
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             fixedGrapper = false;
         }
@@ -58,19 +60,43 @@ public class PlayerPushObject : MonoBehaviour
 
         if(!fixedGrapper)
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            // upper right - facingUp
+            if (animator.GetFloat("Horizontal") > 0 && animator.GetFloat("Vertical") > 0)
             {
                 facingUp = true; facingDown = false; facingLeft = false; facingRight = false;
             }
-            else if (Input.GetKeyDown(KeyCode.A))
-            {
-                facingUp = false; facingDown = false; facingLeft = true; facingRight = false;
-            }
-            else if (Input.GetKeyDown(KeyCode.S))
+            // lower right - facingDown
+            if (animator.GetFloat("Horizontal") > 0 && animator.GetFloat("Vertical") < 0)
             {
                 facingUp = false; facingDown = true; facingLeft = false; facingRight = false;
             }
-            else if (Input.GetKeyDown(KeyCode.D))
+            // upper left - facingUp
+            if (animator.GetFloat("Horizontal") < 0 && animator.GetFloat("Vertical") > 0)
+            {
+                facingUp = true; facingDown = false; facingLeft = false; facingRight = false;
+            }
+            // lower left - facingDown
+            if (animator.GetFloat("Horizontal") < 0 && animator.GetFloat("Vertical") < 0)
+            {
+                facingUp = false; facingDown = true; facingLeft = false; facingRight = false;
+            }
+            // up
+            if (animator.GetFloat("Horizontal") == 0 && animator.GetFloat("Vertical") > 0)
+            {
+                facingUp = true; facingDown = false; facingLeft = false; facingRight = false;
+            }
+            // left
+            if (animator.GetFloat("Horizontal") < 0 && animator.GetFloat("Vertical") ==  0)
+            {
+                facingUp = false; facingDown = false; facingLeft = true; facingRight = false;
+            }
+            // down
+            if (animator.GetFloat("Horizontal") == 0 && animator.GetFloat("Vertical") < 0)
+            {
+                facingUp = false; facingDown = true; facingLeft = false; facingRight = false;
+            }
+            // right
+            if (animator.GetFloat("Horizontal") > 0 && animator.GetFloat("Vertical") == 0)
             {
                 facingUp = false; facingDown = false; facingLeft = false; facingRight = true;
             }
@@ -97,7 +123,7 @@ public class PlayerPushObject : MonoBehaviour
 
         
         // push the key
-        if (hit.collider != null && !isGrapped && Input.GetMouseButton(0))
+        if (hit.collider != null && !isGrapped && Input.GetKey(KeyCode.Space))
         {
             isGrapped = true;
             // 1.create a reference to the box
@@ -112,7 +138,7 @@ public class PlayerPushObject : MonoBehaviour
 
             // 4.adjust physics
             // set boxes to moveable weight
-            box.GetComponent<Rigidbody2D>().mass = 1;
+            //box.GetComponent<Rigidbody2D>().mass = 1;
             box.GetComponent<FixedJoint2D>().enabled = true;
             box.GetComponent<FixedJoint2D>().connectedBody = GetComponent<Rigidbody2D>();
 
@@ -120,7 +146,7 @@ public class PlayerPushObject : MonoBehaviour
             box.GetComponent<SpriteRenderer>().sortingOrder += 5;
         }
         //release key
-        else if(box != null && Input.GetMouseButtonUp(0))
+        else if(box != null && Input.GetKeyUp(KeyCode.Space))
         {
             isGrapped = false;
             // 1. adjust grap condition
@@ -136,7 +162,7 @@ public class PlayerPushObject : MonoBehaviour
             // disable all velocity
             box.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             // reset boxes to unmoveable weight
-            box.GetComponent<Rigidbody2D>().mass = 100000000;
+            //box.GetComponent<Rigidbody2D>().mass = 100000000;
 
             // 4. adjust layer
             box.GetComponent<SpriteRenderer>().sortingOrder -= 5;
@@ -145,7 +171,7 @@ public class PlayerPushObject : MonoBehaviour
             box = null;
 
             // 6. Shake effect
-            StartCoroutine(cameraShake.Shake(0.05f, 0.1f));
+            //StartCoroutine(cameraShake.Shake(0.05f, 0.1f));
         }
     }
 

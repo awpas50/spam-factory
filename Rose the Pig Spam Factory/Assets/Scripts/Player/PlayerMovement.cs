@@ -13,6 +13,10 @@ public class PlayerMovement : MonoBehaviour
     
     public Animator animator;
 
+    public float movementXRecord;
+    public float movementYRecord;
+    public float horizontal_locked;
+    public float vertical_locked;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         // Animation
         DetectAiming();
         Walk();
-        Aim();
+
     }
 
     void FixedUpdate()
@@ -35,12 +39,12 @@ public class PlayerMovement : MonoBehaviour
     void DetectAiming()
     {
         // 0 = not aiming, 1 = aiming
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             animator.SetFloat("AimState", 1);
 
         }
-        if(Input.GetMouseButtonUp(0))
+        if(Input.GetKeyUp(KeyCode.Space))
         {
             animator.SetFloat("AimState", 0);
         }
@@ -54,6 +58,14 @@ public class PlayerMovement : MonoBehaviour
         {
             movement = movement.normalized;
         }
+        if(animator.GetFloat("AimState") == 0)
+        {
+            movementXRecord = animator.GetFloat("Horizontal");
+            movementYRecord = animator.GetFloat("Vertical");
+            horizontal_locked = 0f;
+            vertical_locked = 0f;
+        }
+        
     }
     void Walk()
     {
@@ -64,11 +76,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Vertical", movement.y);
             AudioManager.instance.PlayContinuously(SoundList.PlayerMove, 0.25f);
         }
+        // Lock animation
+        if(animator.GetFloat("AimState") == 1)
+        {
+            horizontal_locked = movementXRecord;
+            vertical_locked = movementYRecord;
+            animator.SetFloat("Horizontal", horizontal_locked);
+            animator.SetFloat("Vertical", vertical_locked);
+        }
         animator.SetFloat("Speed", movement.sqrMagnitude);
-    }
-
-    void Aim()
-    {
-
     }
 }
